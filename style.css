@@ -1,0 +1,468 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 110.6px;
+    background-color: #fff8f8;
+    padding-inline: 10%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    z-index: 1;   
+}
+.nav .navleft{
+    width: 40%;
+    height: inherit;
+    float: left;
+    
+}
+.nav .navleft h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    position: relative;
+    top: 35px;
+    
+}
+.nav .navleft h1:hover{
+    cursor: pointer;
+}
+.nav .navleft span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.nav .navleft span:hover{
+    cursor: pointer;
+
+}
+.nav .navright{
+    width: 45%;
+    height: inherit;
+    
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+   
+    
+
+}
+.nav .navright a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;  
+}
+.nav .navright a:hover{
+    cursor: pointer;
+    color: #317f81;
+    transform: scale(1.1);
+    word-spacing: 1px;
+}
+.nav .navright svg{
+    font-size: 23px;
+    color: #317f81;
+   position: relative;
+   top: 4px;
+   right: 6px;
+}
+.herosection{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/11062b_9de2dbff3dda403b944bb98c41cb5764f000.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    
+    border-bottom: 2px solid black;
+    
+}
+.herosection h3{
+    width: 100%;
+    position: absolute;
+    margin-top: 400px;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    
+}
+.herosection h1{
+    position: absolute;
+    margin-top: 200px;
+    padding-left: 28%;
+    font-size: 122px;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-left: 80px;
+
+}
+.herosection p{
+    position: absolute;
+    margin-top: 360px;
+    text-align: center;
+    margin-left: 39%;
+    font-size: 22px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 300;
+
+
+}
+.herosection button{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    margin-top: 415px;
+    margin-left: 47%;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.herosection button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    word-spacing: 3px;
+    transition: 0.4s;
+    
+}
+.mainsection{
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+    
+}
+.mainsection .mainleft{
+    width: 50%;
+    height: inherit;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding-right: 8%;
+   
+}
+.mainsection .mainleft h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 800;
+
+}
+.mainsection .mainleft p{
+    font-size: 15px;
+    margin-top: 22px;
+    font-weight: 300;
+}
+.mainlefttop{
+    width: 45px;
+    height: 1px;
+    border-bottom: 2px solid black;
+
+}
+
+.mainsection .mainright{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.webp);
+    object-fit: cover;
+    background-size: cover;
+    
+    
+}
+.mainsection .mainleft button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 3px;
+    margin-top: 60px;
+    color:  white;
+    background-color: black;
+    border: none;
+    border: 1.8px solid black;
+    font-weight: 300;
+}
+.mainsection .mainleft button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+#yyy{
+    width: 155px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    border: 1.8px solid black;
+    padding-inline: 5px;
+    margin-left: 5px;
+}
+#yyy:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+    transform: scale(0.98);
+}
+.newsec{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./assets/footer.webp);
+    object-fit: cover;
+    background-size: cover;
+    margin-top: 13.7%;
+    background-attachment: fixed;
+    padding-inline: 20%;
+    
+   
+}
+.newsec .main{
+    width: 100%;
+    height: inherit;
+    
+    
+    
+    
+}
+.newsec .main .maintop{
+    width: 45px;
+    height: 5px;
+
+    
+    
+}
+.newsec .main .line{
+    width: 50px;
+    margin-left: 3%;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 10px;
+    
+    
+    
+}
+.newsec .main h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 60px;
+    margin-top: 25px;
+    margin-left: 3%;
+    
+    
+    
+}
+.newsec .main .apart{
+    width: 30%;
+    height: 450px;
+    border: 5px solid black;
+    margin-top: 20px;
+    padding-inline: 3%;
+    margin-left: 3%;
+    
+    float: left;   
+}
+.newsec .main .apart h1{
+    font-size: 34px;
+    text-align: center;
+}
+.newsec .main .apart h1 span{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    line-height: 10px;
+}
+.newsec .main .apart h1:hover{
+
+    color: rgb( 96, 94, 94);
+    cursor: pointer;
+}
+.newsec .main .apart p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+   
+}
+.newsec .main .apart .bigline{
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-top: 9%;
+}
+.newsec .main .apart h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.newsec .main .apart button{
+    width: 135px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    border: none;
+    border: 1px solid black;
+    position: relative;
+    left: 62px;
+    top: 90px;
+   
+}
+.newsec .main .apart button:hover{
+    color: black;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+    transition: 0.4s;
+   
+}
+#abc{
+    width: 200px;
+    height: 50px;
+   font-size: 17px;
+   letter-spacing: 1px;
+   margin-left: 40%;
+   margin-top: 10%;
+   border: none;
+   color:  white;
+   background-color: black;
+   border: 2px solid black;
+}
+#abc:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #57BBBF;
+    padding-inline: 22%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-block: 50px;
+    display: flex;
+}
+
+.footer h1{
+    font-size: 26px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+
+}
+.footer .footerleft .naniline{
+    width: 20%;
+    border-bottom: 2px solid black;
+    
+}
+.footer .footerleft p{
+    font-size: 15px;
+    margin-top: 10%;
+    font-weight: 300;
+}
+.footer .footerleft img{
+    margin-top: 3%;
+   position: relative;
+   right: 7px;
+}
+.footer .footerright{
+    width: 70%;
+    margin-left: 42%;  
+}
+.footer .footerright h1{
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer .footerright input{
+    width: 400px;
+    height: 35px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid black;
+    padding-left: 10px;
+    
+}
+#ppp{
+    height: 180px;
+
+    
+}
+textarea#ppp{
+    font-size: 14px !important;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid black;
+    width: 400px;
+    height: 160px;
+    padding-left: 10px;
+}
+.footer .footerright button{
+    width: 150px;
+    height: 40px; 
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    margin-left: 60%;
+    color: white;
+    background-color: black;
+    margin-top: 5%; 
+}
+.footer .footerright button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
